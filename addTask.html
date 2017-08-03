@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+         <link rel="stylesheet" type="text/css" href="css/style2.css"> 
+        <title>Calendar</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1><b>Schedule Events</b></h1>
+        </div>
+        <p style="margin-top: 100px;"><b>Please fill all the fields :</b></p>
+        <form >
+            <div class="group">
+                <input type="text" id="drugType"><span class="highlight"></span><span class="bar"></span>
+                <label>Event Name</label>
+            </div>
+            <div class="group">
+                <input type="date" id="drugDate"><span class="highlight"></span><span class="bar"></span>
+                <label>Date</label>
+            </div>
+            <div class="group">
+                <input type="time" id="drugTime" ><span class="highlight"></span><span class="bar"></span>
+                <label>Time</label>
+            </div>
+
+            <button type="button" class="button buttonBlue" id="saveRemind">Save
+                <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+            </button>
+</form>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/addTask.js"></script>
+    </body>
+</html>
